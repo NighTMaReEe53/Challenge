@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("../order-summary-component-main/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box {
+  max-width: 400px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 50px;
+}
+
+.box>img {
+  width: 100%;
+}
+
+.box .text {
+  padding: 10px 30px;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.box .text h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: hsl(223, 47%, 23%);
+}
+
+.box .text p {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: hsl(224, 23%, 55%);
+  max-width: 350px;
+  margin: 0 auto 10px;
+  line-height: 1.6;
+}
+
+.box .text .price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 7px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: hsl(225, 100%, 98%);
+  gap: 10px;
+}
+
+.box .text .price h4 {
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+  font-size: 19px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.box .text .price span {
+  font-weight: 600;
+  text-align: left;
+  display: block;
+  color: #777;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-size: 15px;
+}
+
+.box .text .price a {
+  margin-left: auto;
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.box .text .price a:hover {
+  opacity: 0.8;
+}
+
+.box .text .main-btn {
+  background-color: hsl(245, 75%, 52%);
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  padding: 15px;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.box .text .main-btn:hover {
+  opacity: 0.8;
+}
+
+.box .text .cancel {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+  margin-bottom: 7px;
+  display: block;
+  transition: 0.3s ease;
+}
+
+.box .text .cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/*# sourceMappingURL=style.css.map */
